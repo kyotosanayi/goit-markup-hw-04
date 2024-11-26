@@ -112,9 +112,18 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   letter-spacing: 0.02em;
   padding: 24px 0;
+}
+
+.nav-bar .list .link:first-child {
+  position: relative;
+  color: #404bbf;
+  content:
+  width: 100%;
+}
+
+.nav-bar .list .link:first-child::after {
 }
 
 .nav-bar .list:last-child {
