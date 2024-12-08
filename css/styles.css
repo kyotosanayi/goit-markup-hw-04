@@ -78,6 +78,17 @@ p {
   text-decoration: none;
 }
 
+.logo::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
 .logo-up-right {
   color: #2e2f42;
 }
@@ -140,6 +151,10 @@ p {
 
 .adress {
   font-style: normal;
+}
+
+.adress .list {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress .adress-bar {
