@@ -78,7 +78,7 @@ p {
   text-decoration: none;
 }
 
-.logo::after {
+/* .logo::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -87,7 +87,7 @@ p {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-}
+} */
 
 .logo-up-right {
   color: #2e2f42;
