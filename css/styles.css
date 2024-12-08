@@ -434,6 +434,14 @@ p {
   margin-left: 100px;
 }
 
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  height: 80px;
+  margin-left: 540px;
+}
+
 .footer-socials-text {
   font-weight: 500;
   font-size: 16px;
@@ -446,6 +454,7 @@ p {
 .footer-socials-list {
   display: flex;
   gap: 16px;
+  list-style-type: none;
 }
 
 .footer-socials-listing {
