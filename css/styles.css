@@ -116,9 +116,9 @@ header .nav-bar .link::after {
   text-decoration: none;
 }
 
-.nav-bar .list {
+/* .nav-bar .list {
   color: ;
-}
+} */
 
 .nav-bar .list .link {
   font-weight: 500;
@@ -168,7 +168,7 @@ header .nav-bar .link::after {
   margin-right: 0;
 }
 
-.address-bar .list .link {
+.address .link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -348,7 +348,8 @@ header .nav-bar .link::after {
 
 .section-three-ul .section-three-list {
   flex-basis: calc((100%- 3 * 24px) / 4);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .section-three-list {
@@ -356,19 +357,19 @@ header .nav-bar .link::after {
   background-color: #ffffff;
 }
 
-.section-three .social-link{
+.section-three .social-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-three .social-link:hover{
-  background-color: #404bbf
+.section-three .social-link:hover {
+  background-color: #404bbf;
 }
 
-.section-three .social-link:focus{
-  background-color: #404bbf
+.section-three .social-link:focus {
+  background-color: #404bbf;
 }
 
-.section-three .social-link{
+.section-three .social-link {
   width: 16;
   height: 16;
   fill: #f4f4fd;
@@ -413,6 +414,7 @@ header .nav-bar .link::after {
   align-items: center;
   justify-content: center;
   margin: auto;
+  gap: 24px;
 }
 
 .section-four {
@@ -437,11 +439,12 @@ header .nav-bar .link::after {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-four li:hover{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.section-four li:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.box{
+.box {
   position: relative;
   overflow: hidden;
 }
@@ -456,7 +459,7 @@ header .nav-bar .link::after {
   color: #f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-four li:hover .overlay {
@@ -573,6 +576,6 @@ header .nav-bar .link::after {
   fill: #f4f4fd;
 }
 
-footer .footer-socials-listing a:first-child {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1
+footer .social-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
