@@ -416,7 +416,7 @@ p {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.box {
+.section-four li {
   position: relative;
   overflow: hidden;
 }
@@ -430,7 +430,7 @@ p {
   transform: translateY(100%);
 }
 
-.box:hover .overlay {
+.section-four li:hover .overlay {
   transform: translateY(0);
 }
 
@@ -538,7 +538,7 @@ p {
   background-color: #31d0aa;
 }
 
-.footer-svg {
+.footer svg {
   width: 24;
   height: 24;
   fill: #f4f4fd;
